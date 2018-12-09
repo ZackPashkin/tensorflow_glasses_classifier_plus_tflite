@@ -5,6 +5,7 @@ Transfer learning classifier people with glasses. Easy to follow guide how to co
 
 
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Screenshot%20from%202018-12-10%2004-33-28.png" width="1100" height="600" />
+MobileNet 0,25 with 224 image size was used to make 1.9mb tflite model then imported on android
 
 
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/tflite/Screenshot_20181210-015903_TfLiteCameraDemo.jpg" width="300" height="500" />
@@ -17,4 +18,4 @@ See
 [with_glasses.zip](https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/with_glasses.zip)
 
 [without_glasses.zip](https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/without_glasses.zip)
-Images from CelebA dataset was used 
+Images from CelebA dataset were used 
