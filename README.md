@@ -12,3 +12,7 @@ Transfer learning classifier people with glasses. Easy to follow guide how to co
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/tflite/Screenshot_20181210-033728_MTP%20application.jpg" width="300" height="500" />
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/tflite/Screenshot_20181210-015518_TfLiteCameraDemo.jpg" width="300" height="500" />
 
+Dataset
+See with_glasses.zip
+[with_glasses.zip](https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/with_glasses.zip)
+    without_glasses.zip
