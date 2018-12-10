@@ -7,7 +7,7 @@ Transfer learning with Inception and MobileNet was used as out-of-box solution w
 
 
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Screenshot%20from%202018-12-10%2004-33-28.png" width="1100" height="600" />
-MobileNet 0,25 with 224 image size was used to make 1.9mb tflite model then imported on [android(https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/tree/master/tflite)
+MobileNet 0,25 with 224 image size was used to make 1.9mb tflite model then imported on [android](https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/tree/master/tflite)
 
 
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/tflite/Screenshot_20181210-015903_TfLiteCameraDemo.jpg" width="300" height="500" />
