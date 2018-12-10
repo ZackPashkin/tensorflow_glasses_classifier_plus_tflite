@@ -1,4 +1,0 @@
-#Mon Dec 10 04:59:09 KRAT 2018
-base.0=/home/zack/dl_task_glasses_classifier/glasses_tflite_android/app/build/intermediates/transforms/dexMerger/debug/6
-path.0=classes.dex
-renamed.0=classes.dex
