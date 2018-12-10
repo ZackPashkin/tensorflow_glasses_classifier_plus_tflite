@@ -4,12 +4,17 @@
 Transfer learning with Inception and MobileNet was used as out-of-box solution with options for rapid experimentation in limited time. After series of trials MobileNet was chosen for better inference time and requirement <3mb for model with low latency (compressed to tflite, realtime <50ms on Mali-T880 MP12). Although more data is required for better accuracy. 
 
 Launching 
+```
+git clone 
+cd 
+```
+
 
 ```
 # Put your data in tf_files/dataset
 # MobileNet is available 0.25; 0,5; 0.75 and 1.0
 # Image size can be 128 or 224
-!python -m tensorflow_glasses_classifier_plus_tflite.scripts.retrain \
+ python -m tensorflow_glasses_classifier_plus_tflite.scripts.retrain \
   --bottleneck_dir=tensorflow_glasses_classifier_plus_tflite/tf_files/bottlenecks \
   --how_many_training_steps=1000 \
   --model_dir=tensorflow_glasses_classifier_plus_tflite/tf_files/models/ \
