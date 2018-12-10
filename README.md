@@ -20,7 +20,7 @@ Transfer learning with Inception and MobileNet was used as out-of-box solution w
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Screenshot%20from%202018-12-10%2008-36-55.png" width="1100" height="500" />
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Screenshot%20from%202018-12-10%2008-37-51.png" width="1100" height="500" />
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Screenshot%20from%202018-12-10%2008-39-24.png" width="1100" height="500" />
-<img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Screenshot%20from%202018-12-10%2008-43-08.png" width="1100" height="500" />
+
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Screenshot%20from%202018-12-10%2008-43-14.png" width="1100" height="500" />
 
 
