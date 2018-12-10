@@ -1,7 +1,7 @@
 # tensorflow_glasses_classifier_plus_tflite
 
 
-Transfer learning with Inception and MobileNet was used as out-of-box solution with options for rapid experimentation in limited time. After series of trials MobileNet was chosen as having less inference time and to satisfy requirement <3mb for model with low latency (compressed to tflite, realtime <50ms on Mali-T880 MP12). Although more data is required for better accuracy.
+Transfer learning with Inception and MobileNet was used as out-of-box solution with options for rapid experimentation in limited time. After series of trials MobileNet was chosen for better inference time and requirement <3mb for model with low latency (compressed to tflite, realtime <50ms on Mali-T880 MP12). Although more data is required for better accuracy. Strong overfitting is observed.
 
 
 [Colab Notebook](https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Glasses_TensorFlow_Classifier1.ipynb)
