@@ -5,8 +5,8 @@ Transfer learning with Inception and MobileNet was used as out-of-box solution w
 
 Launching 
 ```
-git clone 
-cd 
+git clone https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite
+cd tensorflow_glasses_classifier_plus_tflite
 ```
 
 
