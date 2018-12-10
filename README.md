@@ -20,7 +20,7 @@ ARCHITECTURE="mobilenet_0.50_${IMAGE_SIZE}"
   
 python -m scripts.retrain \
   --bottleneck_dir=tf_files/bottlenecks \
-  --how_many_training_steps=1000 \
+  --how_many_training_steps=5000 \
   --model_dir=tf_files/models/ \
   --summaries_dir=tf_files/training_summaries/"${ARCHITECTURE}" \
   --output_graph=tf_files/retrained_graph.pb \
