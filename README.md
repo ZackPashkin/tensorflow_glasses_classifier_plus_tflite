@@ -13,16 +13,21 @@ cd tensorflow_glasses_classifier_plus_tflite
 ```
 # Put your data in tf_files/dataset
 # MobileNet is available 0.25; 0,5; 0.75 and 1.0
-# Image size can be 128 or 224
- python -m tensorflow_glasses_classifier_plus_tflite.scripts.retrain \
-  --bottleneck_dir=tensorflow_glasses_classifier_plus_tflite/tf_files/bottlenecks \
+# Image size can be 128,160,192, 224 pixels.
+
+IMAGE_SIZE=224 
+ARCHITECTURE="mobilenet_0.50_${IMAGE_SIZE}"
+  
+python -m scripts.retrain \
+  --bottleneck_dir=tf_files/bottlenecks \
   --how_many_training_steps=1000 \
-  --model_dir=tensorflow_glasses_classifier_plus_tflite/tf_files/models/ \
-  --summaries_dir=tensorflow_glasses_classifier_plus_tflite/tf_files/training_summaries/"mobilenet_0.25_224" \
-  --output_graph=tensorflow_glasses_classifier_plus_tflite/tf_files/retrained_graph.pb \
-  --output_labels=tensorflow_glasses_classifier_plus_tflite/tf_files/retrained_labels.txt \
-  --architecture="mobilenet_0.25_224" \
-  --image_dir=tensorflow_glasses_classifier_plus_tflite/tf_files/dataset
+  --model_dir=tf_files/models/ \
+  --summaries_dir=tf_files/training_summaries/"${ARCHITECTURE}" \
+  --output_graph=tf_files/retrained_graph.pb \
+  --output_labels=tf_files/retrained_labels.txt \
+  --architecture="${ARCHITECTURE}" \
+  --image_dir=tf_files/dataset 
+  
 ```
 
 ```
