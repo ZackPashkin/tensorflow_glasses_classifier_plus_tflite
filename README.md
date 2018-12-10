@@ -33,10 +33,10 @@ python -m scripts.retrain \
 ```
 #make prediction
 #change image adding name from your dataset
- python -m tensorflow_glasses_classifier_plus_tflite.scripts.label_image \
-    --graph=tensorflow_glasses_classifier_plus_tflite/tf_files/retrained_graph.pb  \
-    --image=tensorflow_glasses_classifier_plus_tflite/tf_files/dataset/without_glasses/000004.jpg \
-    --labels=tensorflow_glasses_classifier_plus_tflite/tf_files/retrained_labels.txt
+ python -m scripts.label_image \
+    --graph=tf_files/retrained_graph.pb  \
+    --image=tf_files/dataset/without_glasses/000004.jpg \
+    --labels=tf_files/retrained_labels.txt
 
 ```
 
@@ -46,8 +46,8 @@ python -m scripts.retrain \
 
 #IMAGE_SIZE=224
 !tflite_convert \
-  --graph_def_file=tensorflow_glasses_classifier_plus_tflite/tf_files/retrained_graph.pb \
-  --output_file=tensorflow_glasses_classifier_plus_tflite/tf_files/optimized_graph025_224.lite \
+  --graph_def_file=tf_files/retrained_graph.pb \
+  --output_file=tf_files/optimized_graph025_224.lite \
   --input_format=TENSORFLOW_GRAPHDEF \
   --output_format=TFLITE \
   --input_shape=1,224,224,3 \
