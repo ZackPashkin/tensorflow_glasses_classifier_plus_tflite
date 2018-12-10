@@ -7,6 +7,12 @@ Transfer learning with Inception and MobileNet was used as out-of-box solution w
 [Colab Notebook](https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Glasses_TensorFlow_Classifier1.ipynb)
 https://colab.research.google.com/drive/10aiqHcCykGfzd6cIYslzACa8JIve0eUW
 
+<table class="tfo-notebook-buttons" align="left"><td>
+<a target="_blank"  href="https://colab.research.google.com/drive/1Xh0slMoD1dfi8iTQJbO18uuCilJMLoKc">
+    <img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run in Google Colab</a>  
+</td><td>
+<a target="_blank"  href="https://github.com/ZackPashkin/-social-networks-with-pytorch_geometric-/blob/master/How_To_Connect_Local_Runtime_with_Tesla_V100_Deep_Learning_Instance_on_GCP.ipynb"><img width=32px src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" />View source on GitHub</a></td></table>
+
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Screenshot%20from%202018-12-10%2004-03-46.png" width="1100" height="600" />
 
 
