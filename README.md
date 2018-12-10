@@ -16,7 +16,7 @@ cd tensorflow_glasses_classifier_plus_tflite
 # Image size can be 128,160,192, 224 pixels.
 
 IMAGE_SIZE=224 
-ARCHITECTURE="mobilenet_0.50_${IMAGE_SIZE}"
+ARCHITECTURE="mobilenet_0.75_${IMAGE_SIZE}"
   
 python -m scripts.retrain \
   --bottleneck_dir=tf_files/bottlenecks \
