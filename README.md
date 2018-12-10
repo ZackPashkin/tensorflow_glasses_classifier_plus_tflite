@@ -5,7 +5,7 @@ Transfer learning with Inception and MobileNet was used as out-of-box solution w
 
 
 [Colab Notebook](https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Glasses_TensorFlow_Classifier1.ipynb)
-
+https://colab.research.google.com/drive/10aiqHcCykGfzd6cIYslzACa8JIve0eUW
 
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Screenshot%20from%202018-12-10%2004-03-46.png" width="1100" height="600" />
 
