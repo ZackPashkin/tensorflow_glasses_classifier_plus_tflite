@@ -35,6 +35,22 @@ cd tensorflow_glasses_classifier_plus_tflite
 
 ```
 
+
+```
+#Compress model converting to TFlite format
+
+#IMAGE_SIZE=224
+!tflite_convert \
+  --graph_def_file=tensorflow_glasses_classifier_plus_tflite/tf_files/retrained_graph.pb \
+  --output_file=tensorflow_glasses_classifier_plus_tflite/tf_files/optimized_graph025_224.lite \
+  --input_format=TENSORFLOW_GRAPHDEF \
+  --output_format=TFLITE \
+  --input_shape=1,224,224,3 \
+  --input_array=input \
+  --output_array=final_result \
+  --inference_type=FLOAT \
+  --input_data_type=FLOAT
+```
 [Colab Notebook](https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Glasses_TensorFlow_Classifier1.ipynb)
 
 
