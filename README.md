@@ -42,3 +42,7 @@ See
 
 [without_glasses.zip](https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/without_glasses.zip)
 Images from CelebA dataset were used 
+
+
+[Demo app:](https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/glassses_classifier.apk)
+
