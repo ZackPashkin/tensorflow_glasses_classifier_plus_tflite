@@ -31,6 +31,10 @@ MobileNet 0,25 with 224 image size was used to make 1.9mb tflite model then impo
 
 
 
+
+
+
+
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/tflite/Screenshot_20181210-015903_TfLiteCameraDemo.jpg" width="300" height="500" />
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/tflite/Screenshot_20181210-020443_TfLiteCameraDemo.jpg" width="300" height="500" />
 <img src="https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/tflite/Screenshot_20181210-033728_MTP%20application.jpg" width="300" height="500" />
@@ -45,4 +49,12 @@ Images from CelebA dataset were used
 
 
 [Demo app:](https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/glassses_classifier.apk)
+
+
+
+Possible improvements:
+- Add more data (now it's only <150images/label)
+- [MobileNetV2 architecture](https://ai.googleblog.com/2018/04/mobilenetv2-next-generation-of-on.html)
+
+<img src="https://2.bp.blogspot.com/-E7CT0RHBWq4/WsKlTgEeX2I/AAAAAAAACh0/dp1B4yh6O2k4H1LuC7BA-EKzrL7W0L8iACLcBGAs/s640/image2.png" width="800" height="500" />
 
