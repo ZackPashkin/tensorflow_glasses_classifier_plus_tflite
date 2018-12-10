@@ -25,6 +25,16 @@ cd tensorflow_glasses_classifier_plus_tflite
   --image_dir=tensorflow_glasses_classifier_plus_tflite/tf_files/dataset
 ```
 
+```
+#make prediction
+#change image adding name from your dataset
+ python -m tensorflow_glasses_classifier_plus_tflite.scripts.label_image \
+    --graph=tensorflow_glasses_classifier_plus_tflite/tf_files/retrained_graph.pb  \
+    --image=tensorflow_glasses_classifier_plus_tflite/tf_files/dataset/without_glasses/000004.jpg \
+    --labels=tensorflow_glasses_classifier_plus_tflite/tf_files/retrained_labels.txt
+
+```
+
 [Colab Notebook](https://github.com/ZackPashkin/tensorflow_glasses_classifier_plus_tflite/blob/master/Glasses_TensorFlow_Classifier1.ipynb)
 
 
