@@ -113,7 +113,13 @@ public class Camera2BasicFragment extends Fragment
         }
 
         @Override
-        public void onSurfaceTextureUpdated(SurfaceTexture texture) {}
+        public void onSurfaceTextureUpdated(SurfaceTexture texture) {
+          // grab bitmap from textureView for saving to file
+          if (classifier.currentProbability >= 0.99) {
+            System.out.println("found it");
+            Bitmap bitmap = textureView.getBitmap();
+          }
+        }
       };
 
   /** ID of the current {@link CameraDevice}. */
