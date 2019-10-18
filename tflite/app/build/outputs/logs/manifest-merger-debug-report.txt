@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-40:12
-INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-40:12
-INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-40:12
-INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-40:12
+ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-42:12
+INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-42:12
+INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-42:12
+INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-42:12
 MERGED from [com.android.support:design:25.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\e9e0e900bfa4aaaf512856b2dcfbe200\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\881afcda00b236f4415bd027b5b954e2\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\1e5f93e2a259e0f6a8c8ac98d60fb84d\AndroidManifest.xml:2:1-11:12
@@ -19,20 +19,20 @@ MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\User\.gradl
 MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.2.0.aar\d578c6354c9210d317437270153efaae\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-compat:25.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-compat-25.2.0.aar\a566765fae2b64ed4a4c4b2df70e49ee\AndroidManifest.xml:17:1-27:12
 MERGED from [org.tensorflow:tensorflow-lite:2.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-2.0.0.aar\e963bf3608eefca2c9d113e9b2289ea3\AndroidManifest.xml:2:1-10:12
-INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-40:12
-INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-40:12
-INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-40:12
+INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-42:12
+INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-42:12
+INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-42:12
 	package
 		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:19:5-51
 		INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml
 		INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml
-		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-40:12
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-42:12
 		INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml
-		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-40:12
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:1-42:12
 		INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:18:11-69
@@ -40,16 +40,24 @@ uses-permission#android.permission.CAMERA
 ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:21:5-65
 	android:name
 		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:21:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:22:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:23:22-78
 uses-feature#android.hardware.camera
-ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:23:5-60
+ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:25:5-60
 	android:name
-		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:23:19-57
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:25:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:24:5-70
+ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:26:5-70
 	android:name
-		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:24:19-67
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:26:19-67
 application
-ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:26:5-38:19
+ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:28:5-40:19
 MERGED from [com.android.support:design:25.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\e9e0e900bfa4aaaf512856b2dcfbe200\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:design:25.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-25.2.0.aar\e9e0e900bfa4aaaf512856b2dcfbe200\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.2.0.aar\881afcda00b236f4415bd027b5b954e2\AndroidManifest.xml:25:5-20
@@ -79,29 +87,29 @@ MERGED from [com.android.support:support-compat:25.2.0] C:\Users\User\.gradle\ca
 MERGED from [org.tensorflow:tensorflow-lite:2.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-2.0.0.aar\e963bf3608eefca2c9d113e9b2289ea3\AndroidManifest.xml:8:5-20
 MERGED from [org.tensorflow:tensorflow-lite:2.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\tensorflow-lite-2.0.0.aar\e963bf3608eefca2c9d113e9b2289ea3\AndroidManifest.xml:8:5-20
 	android:label
-		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:27:9-41
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:29:9-41
 	android:icon
-		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:28:9-45
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:30:9-45
 	android:allowBackup
-		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:26:18-44
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:28:18-44
 	android:theme
-		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:29:9-45
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:31:9-45
 activity#com.example.android.tflitecamerademo.CameraActivity
-ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:31:9-37:20
+ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:33:9-39:20
 	android:label
-		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:32:19-51
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:34:19-51
 	android:name
-		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:31:19-85
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:33:19-85
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:33:13-36:29
+ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:35:13-38:29
 action#android.intent.action.MAIN
-ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:35:17-77
+ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:35:27-74
+		ADDED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml:37:27-74
 uses-sdk
 INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\repos\tensorflow_glasses_classifier_plus_tflite\tflite\app\src\main\AndroidManifest.xml
