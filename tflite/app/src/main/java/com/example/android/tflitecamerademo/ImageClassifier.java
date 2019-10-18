@@ -82,6 +82,9 @@ public class ImageClassifier {
   private static final int FILTER_STAGES = 3;
   private static final float FILTER_FACTOR = 0.4f;
 
+  /* Store the current probability for deciding when to take a picture */
+  public float currentProbability;
+
   private PriorityQueue<Map.Entry<String, Float>> sortedLabels =
       new PriorityQueue<>(
           RESULTS_TO_SHOW,
@@ -205,6 +208,12 @@ public class ImageClassifier {
   /** Prints top-K labels, to be shown in UI as the results. */
   private String printTopKLabels() {
     for (int i = 0; i < labelList.size(); ++i) {
+      // assign probability value to a public variable to be access by Camera2BasicFragment.java class
+      currentProbability = labelProbArray[0][i];
+
+      if (currentProbability >= 0.99){
+        System.out.println("found match");
+      }
       sortedLabels.add(
           new AbstractMap.SimpleEntry<>(labelList.get(i), labelProbArray[0][i]));
       if (sortedLabels.size() > RESULTS_TO_SHOW) {
