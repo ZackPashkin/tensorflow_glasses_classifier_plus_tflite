@@ -42,6 +42,7 @@ import android.hardware.camera2.TotalCaptureResult;
 import android.hardware.camera2.params.StreamConfigurationMap;
 import android.media.ImageReader;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.support.annotation.NonNull;
@@ -56,11 +57,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
@@ -118,6 +123,7 @@ public class Camera2BasicFragment extends Fragment
           if (classifier.currentProbability >= 0.99) {
             System.out.println("found it");
             Bitmap bitmap = textureView.getBitmap();
+            saveFile(bitmap);
           }
         }
       };
@@ -219,6 +225,46 @@ public class Camera2BasicFragment extends Fragment
             }
           });
     }
+  }
+
+  /* Method to save bitmap to local directory */
+  private void saveFile(Bitmap bitmap) {
+    FileOutputStream out = null;
+    String fileName = "probabilityMatch_" + new Date().toString();
+    File sd = new File(Environment.getExternalStoragePublicDirectory("png") + "/tflite_images");
+    boolean success = true;
+    boolean exists = sd.exists();
+    if (exists == false) {
+      try {
+        success = sd.mkdirs();
+      }
+      catch (Exception ex) {
+        System.out.println("Exception saving image: " + ex.toString());
+      }
+    }
+
+    if (success) {
+      File dest = new File(sd, fileName);
+
+      try {
+        out = new FileOutputStream(dest);
+        bitmap.compress(Bitmap.CompressFormat.PNG, 100, out);
+      }
+      catch (Exception ex) {
+        System.out.println("Exception compressing bitmap: " + ex.toString());
+      }
+      finally {
+        try {
+          if (out != null) {
+            out.close();
+          }
+        }
+        catch (Exception ex) {
+          System.out.println("Exception closing file stream: " + ex.toString());
+        }
+      }
+    }
+
   }
 
   /**
